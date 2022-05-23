@@ -1,0 +1,54 @@
+.nav-bg
+{
+	background-image: url("../images/bgbody.jpg");
+}
+.slide-data{
+
+   position: relative;
+   z-index: 1;
+   float: left;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+} 
+.bg-slide
+{
+	background-image: url("../images/bgbody.jpg");
+}
+.card-about{
+   background: transparent;
+
+}
+.progress-95{
+   width: 95%;
+    background-color: #8993be;
+
+}
+.progress-75{
+   width: 75%;
+   background-color: #264de4;
+}
+.progress-88{
+   width: 88%;
+   background-color: #f0db4f;
+   
+}
+.progress-90{
+   width: 90%;
+   background-color: #e34c26;
+}
+.bgbodytwo{
+   background-image: url("../images/bgbodytwo.png");
+}
+.card-bg
+{
+    background-color: #e34c26;
+   background-image: url("../images/projectbg.png");
+}
+.marquee-main{
+   width: 90%;
+   height: 90%;
+
+
+
+}
