@@ -12,23 +12,23 @@
 	<body>
 		  <!-- Navbar Section Start -->
 	<nav class="navbar navbar-expand-lg navbar-dark nav-bg sticky-top">
-  		<a class="navbar-brand" href="#">Malakias Escasinas</a>
+  		<a class="navbar-brand" href="#Home">Malakias Escasinas</a>
   			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
  			 </button>
   	<div class="collapse navbar-collapse id="navbarNav">
     	<ul class="navbar-nav ml-auto text-center">
       		<li class="nav-item">
-        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        		<a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
       		</li>
       		<li class="nav-item">
-        		<a class="nav-link" href="#">About Us</a>
+        		<a class="nav-link" href="#aboutUs">About Us</a>
       		</li>
      		<li class="nav-item">
-        		<a class="nav-link" href="#">Projects and Tools</a>
+        		<a class="nav-link" href="#project_tools">Projects and Tools</a>
       		</li>
       		<li class="nav-item">
-        		<a class="nav-link">Contact</a>
+        		<a class="nav-link" href="#contactUs">Contact</a>
       		</li>
     	</ul>
   	</div>
@@ -36,7 +36,7 @@
 	<!-- Navbar Section start -->
 
 	<!-- Navbar home start -->
-
+<div id="Home">
 <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
 
 
@@ -75,11 +75,12 @@
   </button>
 
 </div>
+</div>
 	<!-- Navbar home end -->
 
 
     <!-- narbar About us start -->
-    <div class="container-fluid nav-bg">
+    <div class="container-fluid nav-bg justify-content-center" id="aboutUs">
       <div class="d-lg-flex justify-content-center p-md-5">
         <div class="col-lg-4 ">
            <img class="img-fluid img-thumbnail" src="images/aboutus.jpg" class="d-block w-100" alt="...">
@@ -87,11 +88,11 @@
 
          <div class="col-lg-8">
            <div class="card mb-3 card-about text-light">
-              <div class="card-header">  <h2>Title:Software Developer</h2></div>
+              <div class="card-header justify-content-sm-center">  <h2>Title:Software Developer</h2></div>
               <div class="card-body">
               
                 <div class="row">
-                  <div class="col-lg-2 justify-content-sm-center"> 
+                  <div class="col-lg-2 col-sm-12 justify-content-sm-center"> 
                     <img class="img-fluid" src="images/logo-html5.png">
                   </div>
                   <div class="col-lg-10 mt-auto">
@@ -140,7 +141,7 @@
     </div>
 <!-- narbar About us End -->
     <!-- Projects and Tools  Start -->
-      <div class="min-vh-100 text-dark p-sm-5 p-lg-5 bgbodytwo">
+      <div class="min-vh-100 text-dark p-sm-5 p-lg-5 bgbodytwo" id="project_tools">
         <h2 class="mb-3 text-center text-light">Projects</h2>
         <div class="d-lg-flex justify-content-center">
 
@@ -236,21 +237,103 @@
      </div>
   <!-- Tools Section End -->
     <!-- Contact start -->
-    <div class="container-fluid bgbodytwo text-light text-center">
+    <div class="container-fluid bgbodytwo text-light text-center" id="contactUs">
        <h1>Contact</h1>
-       <div class="row justify-content-center">
-         <div class="col-lg-4"><i class="bi bi-facebook"></i></div>
-         <div class="col-lg-4"><i class="bi bi-facebook"></i></div>
-         <div class="col-lg-4"><i class="bi bi-facebook"></i></div>
+       <div class="d-flex flex-row pd-5 justify-content-center">
+                    <div class="flex-row">
+                        <a href="https://facebook.com/malakiasescasinas" target="_blank"><i class="bi bi-facebook mr-3"></i></a>
+                      
+                    </div>
+                    <div class="flex-row mr-3">
+                       <a href=" https://www.linkedin.com/in/malakias-escasinas-a63b96220/" target="_blank">
+                          <i class="bi bi-linkedin"></i>
+                      </a>
+                        
+                    </div>
+                    <div class="flex-row mr-3">
+                       <a href="https://github.com/makaimacky" target="_blank">
+                         <i class="bi bi-github"></i>
+                       </a>
+                    </div>
+                 
+    
+      </div>
      
-       </div>
+
+         <div class="d-flex flex-row justify-content-center text-light">
+            <div class="flex-row mr-3">
+              <button type="button" class="btn bgbodytwo text-light" data-toggle="modal" data-target="#messageUs">
+              Click here Message Us
+              </button>      
+            </div>
+         </div>
+          <div class="flex-row mr-3">
+                 <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.2837663602495!2d121.04017141385117!3d14.410798589923603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d0492b10a50d%3A0x5d8e1796c6806412!2sAlabang%2C%20Muntinlupa%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1653316716389!5m2!1sen!2sph" width="1000" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
     </div>
    
+   <div class="modal fade" id="messageUs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Message Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </form> 
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#alertSuccess">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+<!-- Modal -->
+<div class="modal fade" id="alertSuccess" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header bg-success">
+        <h5 class="modal-title " id="staticBackdropLabel">Alert</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Sent Successful!!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Contact End -->
+ 
 
+<footer class="text-light nav-bg text-center">
+            <span>Malakias Escasinas</span>
+              <span>Full Stack Web Developer</span>
+            <span>&copy;2021-2022 Malakias Escasinas. All Right Reserved</span>
 
+        </footer>
 
 
 
